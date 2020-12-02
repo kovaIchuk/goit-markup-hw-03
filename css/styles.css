@@ -41,11 +41,6 @@
   }
   /*================STUDIO=================*/
   /*Верхняя линия */
-  header{
-    padding-bottom: 25px;
-    padding-top: 25px;
-   
-  }
   
   .logo {
     color: var(--basic-color);
@@ -89,7 +84,10 @@
     margin-left: auto;
   }
 
-  .address {
+  .address-links .address {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--content-color);
   }
   .navigation .link:hover,
@@ -264,13 +262,13 @@
   /*Footer*/
   .footer {
     background-color: var(--second-background-color);
-    padding-bottom: 60px;
-    padding-top: 60px;
+   
   }
   .footer .logo {
     display: inline-block;
     color: var(--second-color);
     margin-bottom: 20px;
+    margin-top: 60px;
   }
   .footer-street,
   .footer .address {
@@ -282,6 +280,12 @@
   }
   .footer-street {
     color: var(--second-color);
+  }
+  .footer-addr .address:last-child{
+    padding-bottom: 60px;
+  }
+  .footer-addr .address{
+    color: var(--content-color);
   }
   
   /*================PORTFOLIO=================*/
